@@ -10,7 +10,12 @@ module.exports = {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'hero-pattern': "url('../assets/henr.png')",
+
+      }
+    },
   },
   plugins: [],
 }

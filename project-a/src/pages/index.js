@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import Navbar from 'components/sections/Navbar'
+import Wrapper from 'components/layout/Wrapper'
+import Hero from 'components/sections/Hero'
+import Testimonials from 'components/sections/Testimonials'
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -14,10 +19,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex justify-center items-center w-full h-screen
-      '>
-      <h1 className='text-red-600 font-bold text-3xl'>HELLO WORLD</h1>
-      </div>
+      <Navbar/>
+      <Hero/>
+      <Testimonials/>
+
     </>
   )
 }
