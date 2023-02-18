@@ -5,6 +5,7 @@ import Navbar from 'components/sections/Navbar'
 import Wrapper from 'components/layout/Wrapper'
 import Hero from 'components/sections/Hero'
 import Testimonials from 'components/sections/Testimonials'
+import About from 'components/sections/About'
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <Testimonials/>
+      <About/>
 
     </>
   )
