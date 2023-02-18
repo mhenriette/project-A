@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return <div className="bg-black pb-32 ">
-    <div className="mx-auto container px-32 mb-[200px]">
+    <div className="mx-auto container px-32">
         <p className="font-normal text-[40px] leading-[52px] tracking-[-0.54px] text-[#8f9094] mb-5">
         Project A invests in &nbsp;
         <span className="text-white">digital companies</span>&nbsp;

@@ -6,6 +6,9 @@ import Wrapper from 'components/layout/Wrapper'
 import Hero from 'components/sections/Hero'
 import Testimonials from 'components/sections/Testimonials'
 import About from 'components/sections/About'
+import News from 'components/sections/News.jsx'
+import Career from 'components/sections/Career'
+import Footer from 'components/sections/Footer'
 
 
 
@@ -24,6 +27,9 @@ export default function Home() {
       <Hero/>
       <Testimonials/>
       <About/>
+      <News/>
+      <Career/>
+      <Footer/>
 
     </>
   )
