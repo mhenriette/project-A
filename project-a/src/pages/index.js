@@ -9,7 +9,6 @@ import About from 'components/sections/About'
 import News from 'components/sections/News.jsx'
 import Career from 'components/sections/Career'
 import Footer from 'components/sections/Footer'
-import Anchor from 'components/ui/Anchor'
 
 
 
@@ -30,7 +29,6 @@ export default function Home() {
       <About/>
       <News/>
       <Career/>
-      {/* <Anchor/> */}
       <Footer/>
 
     </>
